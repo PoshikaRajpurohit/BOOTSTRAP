@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordian</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    
+</head>
+<body>
+    <div class="container">
+        <div class="accordion" id="accord">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button"  data-bs-toggle="collapse" data-bs-target="#register" >
+                    How do I register on Croma.com?
+                  </button>
+                </h2>
+                <div id="register" class="accordion-collapse collapse show" data-bs-parent="#accord" >
+                  <div class="accordion-body">
+                   <P mb-0>To 'Login', click on the 'Profile' icon next to the cart icon. Note, first time users will need to
+                    'Sign-Up' and register.</P>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button"  data-bs-toggle="collapse" data-bs-target="#e-mail" >
+                       Can I change my account Email ID pr Mobile Number?
+                    </button>
+                </h2>
+                <div id="e-mail" class="accordion-collapse collapse" data-bs-parent="#accord" >
+                    <div class="accordion-body">
+                        <p class="mb-0">Unfortunately, your Email ID or mobile number once registered cannot be changed. However, you can create a new account with your new contact number or Email ID.</p>
+                    </div>
+                </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button"  data-bs-toggle="collapse" data-bs-target="#address" >
+                       What is an Address book?
+                    </button>
+                </h2>
+                <div id="address" class="accordion-collapse collapse" data-bs-parent="#accord" >
+                    <div class="accordion-body">
+                        <p class="mb-0">
+                            As a registered user on croma.com, you can create your own Address book which would save shipping information of previous orders. As a customer, you can select a shipping address from the Address book and proceed through checkout.</p>
+                    </div>
+                </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button"  data-bs-toggle="collapse" data-bs-target="#reset" >
+                        How do I change or reset my password?
+                    </button>
+                </h2>
+                <div id="reset" class="accordion-collapse collapse" data-bs-parent="#accord">
+                    <div class="accordion-body">
+                        <p class="mb-0">Enter your current (old) password and the new password. Click on Save Changes.</p>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+ </body>
+</html>
